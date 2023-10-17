@@ -8,9 +8,17 @@
     <title>Pokemons</title>
 </head>
 <body>
-    
-    <ul class="pokemons-list"></ul>
 
+    <div class="container">
+        <form class="main-form">
+            <input type="text" placeholder="Enter name" class="name-input">
+            <input type="number" placeholder="From..." class="weight-from">
+            <input type="number" placeholder="To..." class="weight-to">
+            <button type="submit" class="submit-btn">Search</button>
+        </form>
+        
+        <ul class="pokemons-list"></ul>
+    </div>
     <script src="./js/pokemons.js"></script>
     <script src="./js/script.js"></script>
 </body>

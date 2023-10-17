@@ -4618,3 +4618,27 @@ var pokemons = [
 	]
 }
 ];
+
+// const result = pokemons.map(item => {
+// 	return {
+// 			id: item.id,
+// 			num: Number(item.num),
+// 			name: item.name,
+// 			img: item.img,
+// 			type: item.type,
+// 			height: item,
+// 			"weight": "4.0 kg",
+// 			"candy": "None",
+// 			"egg": "Not in Eggs",
+// 			"spawn_chance": 0,
+// 			"avg_spawns": 0,
+// 			"spawn_time": "N/A",
+// 			"multipliers": null,
+// 			"weaknesses": [
+// 			"Bug",
+// 			"Ghost",
+// 			"Dark"
+// 			]
+// 	}
+// })
+// console.log(result);
